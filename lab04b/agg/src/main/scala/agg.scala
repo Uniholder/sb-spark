@@ -8,8 +8,8 @@ object agg extends App with SparkSupport {
 
   val kafkaParamsInput = Map(
     "kafka.bootstrap.servers" -> "10.0.1.13:6667",
-    "subscribe" -> "vladislav_leonov",
-    "startingOffsets" -> """ { "vladislav_leonov": { "0": -2 } } """
+    "subscribe" -> "lab04b_input_data",
+    "startingOffsets" -> """ { "lab04b_input_data": { "0": -2 } } """
   )
 
   val kafkaParamsOutput = Map(
@@ -35,7 +35,7 @@ object agg extends App with SparkSupport {
     .withColumn("ts", to_timestamp(col("timestamp") / 1000))
 
   val result = sdfShop
-    .withWatermark("ts", "10 minutes")
+    .withWatermark("ts", "2 hour")
     .groupBy(window(col("ts"), "1 hour", "1 hour"))
     .agg(
       sum(when(col("event_type") === "buy", col("item_price")).otherwise(0)).as("revenue"),
@@ -44,7 +44,8 @@ object agg extends App with SparkSupport {
     )
     .select(
       to_json(
-        struct(unix_timestamp(col("window.start")).alias("start_ts"),
+        struct(
+          unix_timestamp(col("window.start")).alias("start_ts"),
           unix_timestamp(col("window.end")).alias("end_ts"),
           col("revenue"),
           col("visitors"),
@@ -55,9 +56,11 @@ object agg extends App with SparkSupport {
 
   val sink = result
     .writeStream
-    .outputMode("update")
+//    .outputMode("update")
+    .outputMode("complete")
     .format("kafka")
-    .trigger(Trigger.ProcessingTime("5 seconds"))
+    .trigger(Trigger.Once())
+//    .trigger(Trigger.ProcessingTime("5 seconds"))
     .options(kafkaParamsOutput)
     .option("checkpointLocation", s"chk/lab04b")
     .start()
