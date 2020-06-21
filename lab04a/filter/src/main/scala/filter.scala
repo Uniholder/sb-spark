@@ -37,7 +37,7 @@ object filter extends App{
       "date", date_format(
         to_date(
           from_unixtime(col("timestamp") / 1000)
-        ), "YYYYMMDD"
+        ), "yyyyMMdd"
       )
     )
     .withColumn("_date", col("date"))
