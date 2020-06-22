@@ -1,4 +1,5 @@
 import org.apache.spark.sql.functions._
+import users_items.user_items_matrix_new
 
 object users_items extends App with SparkSupport {
 
@@ -37,18 +38,25 @@ object users_items extends App with SparkSupport {
 
     newData.unpersist
   } else {
-    val latestDir = getLatestPath(output_dir)
+      val latestDir = getLatestPath(output_dir)
 
-    val user_items_matrix_old = spark
-      .read
-      .parquet(latestDir)
+      val user_items_matrix_old = spark
+        .read
+        .parquet(latestDir)
 
-    val user_items_matrix_updated = user_items_matrix_old
-      .union(user_items_matrix_new)
+      val colsOld = user_items_matrix_old
+        .columns
+        .map(col)
+
+      val user_items_matrix_new_cols_old = user_items_matrix_new
+        .select(colsOld:_*)
+
+      val user_items_matrix_updated = user_items_matrix_old
+        .union(user_items_matrix_new_cols_old)
 
       user_items_matrix_updated
-      .write
-      .mode("overwrite")
-      .parquet(output_dir + '/' + latest_date)
+        .write
+        .mode("overwrite")
+        .parquet(output_dir + '/' + latest_date)
   }
 }
