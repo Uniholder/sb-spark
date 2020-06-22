@@ -24,7 +24,7 @@ trait SparkSupport {
         .listFiles
         .filter(_.isDirectory)
         .map(_.getName)
-      path + dateDirs.max
+      path + '/' + dateDirs.max
     }
     else {
       val fs = FileSystem.get(new Configuration())
