@@ -1,0 +1,19 @@
+[debug] Packaging C:\Users\Vlad\IdeaProjects\users_items\target\scala-2.11\users_items_2.11-1.0.jar ...
+[debug] Input file mappings:
+[debug] 	SparkSupport$$anonfun$1.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\users_items\target\scala-2.11\classes\SparkSupport$$anonfun$1.class
+[debug] 	SparkSupport$$anonfun$2.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\users_items\target\scala-2.11\classes\SparkSupport$$anonfun$2.class
+[debug] 	SparkSupport$$anonfun$getLatestPath$1.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\users_items\target\scala-2.11\classes\SparkSupport$$anonfun$getLatestPath$1.class
+[debug] 	SparkSupport$class.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\users_items\target\scala-2.11\classes\SparkSupport$class.class
+[debug] 	SparkSupport.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\users_items\target\scala-2.11\classes\SparkSupport.class
+[debug] 	users_items$.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\users_items\target\scala-2.11\classes\users_items$.class
+[debug] 	users_items$delayedInit$body.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\users_items\target\scala-2.11\classes\users_items$delayedInit$body.class
+[debug] 	users_items.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\users_items\target\scala-2.11\classes\users_items.class
+[debug] Done packaging.
