@@ -44,15 +44,19 @@ object users_items extends App with SparkSupport {
         .read
         .parquet(latestDir)
 
-      val colsOld = user_items_matrix_old
-        .columns
-        .map(col)
+      val colsOld = user_items_matrix_old.columns.toSet
+      val colsNew = user_items_matrix_new.columns.toSet
+      val cols = colsNew ++ colsOld
 
-      val user_items_matrix_new_cols_old = user_items_matrix_new
-        .select(colsOld:_*)
+      def expr(myCols: Set[String], allCols: Set[String]) = {
+        allCols.toList.map(x => x match {
+          case x if myCols.contains(x) => col(x)
+          case _ => lit(0).as(x)
+        })
+      }
 
-      val user_items_matrix_updated = user_items_matrix_old
-        .union(user_items_matrix_new_cols_old)
+      val user_items_matrix_updated = user_items_matrix_old.select(expr(colsOld, cols):_*)
+        .union(user_items_matrix_new.select(expr(colsNew, cols):_*))
 
       user_items_matrix_updated
         .write
