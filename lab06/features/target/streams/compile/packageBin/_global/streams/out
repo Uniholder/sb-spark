@@ -1,0 +1,19 @@
+[debug] Packaging C:\Users\Vlad\IdeaProjects\features\target\scala-2.11\features_2.11-1.0.jar ...
+[debug] Input file mappings:
+[debug] 	features$$anonfun$1.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\features\target\scala-2.11\classes\features$$anonfun$1.class
+[debug] 	features$$anonfun$2.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\features\target\scala-2.11\classes\features$$anonfun$2.class
+[debug] 	features$$typecreator4$1.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\features\target\scala-2.11\classes\features$$typecreator4$1.class
+[debug] 	features$$typecreator5$1.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\features\target\scala-2.11\classes\features$$typecreator5$1.class
+[debug] 	features$$typecreator6$1.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\features\target\scala-2.11\classes\features$$typecreator6$1.class
+[debug] 	features$.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\features\target\scala-2.11\classes\features$.class
+[debug] 	features$delayedInit$body.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\features\target\scala-2.11\classes\features$delayedInit$body.class
+[debug] 	features.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\features\target\scala-2.11\classes\features.class
+[debug] Done packaging.
