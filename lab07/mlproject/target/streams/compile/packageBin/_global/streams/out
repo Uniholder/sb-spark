@@ -1,0 +1,19 @@
+[debug] Packaging C:\Users\Vlad\IdeaProjects\mlproject\target\scala-2.11\mlproject_2.11-1.0.jar ...
+[debug] Input file mappings:
+[debug] 	SparkSupport$class.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\mlproject\target\scala-2.11\classes\SparkSupport$class.class
+[debug] 	SparkSupport.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\mlproject\target\scala-2.11\classes\SparkSupport.class
+[debug] 	test$.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\mlproject\target\scala-2.11\classes\test$.class
+[debug] 	test$delayedInit$body.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\mlproject\target\scala-2.11\classes\test$delayedInit$body.class
+[debug] 	test.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\mlproject\target\scala-2.11\classes\test.class
+[debug] 	train$.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\mlproject\target\scala-2.11\classes\train$.class
+[debug] 	train$delayedInit$body.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\mlproject\target\scala-2.11\classes\train$delayedInit$body.class
+[debug] 	train.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\mlproject\target\scala-2.11\classes\train.class
+[debug] Done packaging.
