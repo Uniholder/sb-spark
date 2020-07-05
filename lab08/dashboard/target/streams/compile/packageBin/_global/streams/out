@@ -1,0 +1,9 @@
+[debug] Packaging C:\Users\Vlad\IdeaProjects\dashboard\target\scala-2.11\dashboard_2.11-1.0.jar ...
+[debug] Input file mappings:
+[debug] 	dashboard$.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\dashboard\target\scala-2.11\classes\dashboard$.class
+[debug] 	dashboard$delayedInit$body.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\dashboard\target\scala-2.11\classes\dashboard$delayedInit$body.class
+[debug] 	dashboard.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\dashboard\target\scala-2.11\classes\dashboard.class
+[debug] Done packaging.
