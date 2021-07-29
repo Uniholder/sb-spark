@@ -1,0 +1,7 @@
+[debug] Acquiring lock on file C:\Users\Vlad\IdeaProjects\RDD\project\target\.sbt-compilation-infos\rdd-compile\.sbt-idea-lock ...
+[warn] C:\Users\Vlad\IdeaProjects\RDD\src\main\scala\RDD.scala:2:29: imported `RDD' is permanently hidden by definition of object RDD
+[warn] import org.apache.spark.rdd.RDD
+[warn]                             ^
+[warn] there was one deprecation warning; re-run with -deprecation for details
+[warn] two warnings found
+[debug] Releasing lock on file C:\Users\Vlad\IdeaProjects\RDD\project\target\.sbt-compilation-infos\rdd-compile\.sbt-idea-lock.

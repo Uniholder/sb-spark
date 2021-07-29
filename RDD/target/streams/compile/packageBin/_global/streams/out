@@ -1,0 +1,33 @@
+[debug] Packaging C:\Users\Vlad\IdeaProjects\RDD\target\scala-2.11\rdd_2.11-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	RDD$$anonfun$1.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\RDD\target\scala-2.11\classes\RDD$$anonfun$1.class
+[debug] 	RDD$$anonfun$2.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\RDD\target\scala-2.11\classes\RDD$$anonfun$2.class
+[debug] 	RDD$$anonfun$3.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\RDD\target\scala-2.11\classes\RDD$$anonfun$3.class
+[debug] 	RDD$$anonfun$4.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\RDD\target\scala-2.11\classes\RDD$$anonfun$4.class
+[debug] 	RDD$$anonfun$5.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\RDD\target\scala-2.11\classes\RDD$$anonfun$5.class
+[debug] 	RDD$$anonfun$6.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\RDD\target\scala-2.11\classes\RDD$$anonfun$6.class
+[debug] 	RDD$$anonfun$7.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\RDD\target\scala-2.11\classes\RDD$$anonfun$7.class
+[debug] 	RDD$$anonfun$main$1.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\RDD\target\scala-2.11\classes\RDD$$anonfun$main$1.class
+[debug] 	RDD$$anonfun$RDD$$toAirportOptSafe$1$1.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\RDD\target\scala-2.11\classes\RDD$$anonfun$RDD$$toAirportOptSafe$1$1.class
+[debug] 	RDD$$anonfun$RDD$$toAirportOptSafe$1$2.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\RDD\target\scala-2.11\classes\RDD$$anonfun$RDD$$toAirportOptSafe$1$2.class
+[debug] 	RDD$$anonfun$RDD$$toAirportOptSafe$1$3.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\RDD\target\scala-2.11\classes\RDD$$anonfun$RDD$$toAirportOptSafe$1$3.class
+[debug] 	RDD$.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\RDD\target\scala-2.11\classes\RDD$.class
+[debug] 	RDD$AirportSafe$3.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\RDD\target\scala-2.11\classes\RDD$AirportSafe$3.class
+[debug] 	RDD$AirportSafe$4$.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\RDD\target\scala-2.11\classes\RDD$AirportSafe$4$.class
+[debug] 	RDD.class
+[debug] 	  C:\Users\Vlad\IdeaProjects\RDD\target\scala-2.11\classes\RDD.class
+[debug] Done packaging.

@@ -1,0 +1,5 @@
+package ScalaDemo
+
+class scala {
+
+}

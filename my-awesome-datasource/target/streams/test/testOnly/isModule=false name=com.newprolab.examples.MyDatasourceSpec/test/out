@@ -1,0 +1,14 @@
+[info] MyDatasourceSpec:
+[info] com.newprolab.examples.MyDatasourceSpec *** ABORTED ***
+[info]   org.apache.spark.SparkException: A master URL must be set in your configuration
+[info]   at org.apache.spark.SparkContext.<init>(SparkContext.scala:368)
+[info]   at org.apache.spark.SparkContext$.getOrCreate(SparkContext.scala:2520)
+[info]   at org.apache.spark.sql.SparkSession$Builder$$anonfun$7.apply(SparkSession.scala:930)
+[info]   at org.apache.spark.sql.SparkSession$Builder$$anonfun$7.apply(SparkSession.scala:921)
+[info]   at scala.Option.getOrElse(Option.scala:121)
+[info]   at org.apache.spark.sql.SparkSession$Builder.getOrCreate(SparkSession.scala:921)
+[info]   at com.newprolab.examples.MyDatasourceSpec.<init>(MyDatasourceSpec.scala:10)
+[info]   at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[info]   at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[info]   at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[info]   ...

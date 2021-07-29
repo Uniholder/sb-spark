@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="DESKTOP-MT7K46O" name="com.newprolab.examples.MyDatasourceSpec" tests="1" errors="1" failures="0" skipped="0" time="0.023" timestamp="2020-07-06T20:07:38">
+                     <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/><property name="java.vm.version" value="25.251-b08"/><property name="user.country.format" value="RU"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=";"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="user.script" value=""/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value=""/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="C:\Users\Vlad\IdeaProjects\my-awesome-datasource"/><property name="java.runtime.version" value="1.8.0_251-b08"/><property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/><property name="idea.managed" value="true"/><property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="C:\Users\Vlad\AppData\Local\Temp\"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="log4j.ignoreTCL" value="true"/><property name="user.variant" value=""/><property name="os.name" value="Windows 10"/><property name="sbt.log.noformat" value="true"/><property name="sun.jnu.encoding" value="Cp1252"/><property name="jnidispatch.path" value="C:\Users\Vlad\AppData\Local\Temp\jna-2668921\jna4245957040927312216.dll"/><property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_251\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Users\Vlad\.jdks\openjdk-14.0.1\bin;C:\Spark\spark-3.0.0-preview2-bin-hadoop2.7;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Vlad\AppData\Local\Microsoft\WindowsApps;C:\Users\Vlad\.jdks\openjdk-14.0.1\bin;C:\Spark\spark-3.0.0-preview2-bin-hadoop2.7;;."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.0"/><property name="swoval.tmpdir" value="C:\Users\Vlad\.sbt\1.0"/><property name="user.home" value="C:\Users\Vlad"/><property name="user.timezone" value="Europe/Moscow"/><property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="C:\Users\Vlad\AppData\Roaming\JetBrains\IdeaIC2020.1\plugins\Scala\launcher\sbt-launch.jar"/><property name="user.name" value="Vlad"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="C:\Users\Vlad\AppData\Roaming\JetBrains\IdeaIC2020.1\plugins\Scala\launcher\sbt-launch.jar early(addPluginSbtFile=&quot;&quot;&quot;C:\Users\Vlad\AppData\Local\Temp\idea1.sbt&quot;&quot;&quot;) ; set ideaPort in Global := 53473 ; idea-shell"/><property name="java.home" value="C:\Program Files\Java\jdk1.8.0_251\jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="user.language.format" value="ru"/><property name="awt.toolkit" value="sun.awt.windows.WToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_251"/><property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/><property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="sun.stderr.encoding" value="cp437"/><property name="file.separator" value="\"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sbt.supershell" value="false"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.stdout.encoding" value="cp437"/><property name="sun.desktop" value="windows"/><property name="sun.cpu.isalist" value="amd64"/>
+    </properties>
+                     <testcase classname="com.newprolab.examples.MyDatasourceSpec" name="(It is not a test it is a sbt.testing.SuiteSelector)" time="0.023">
+                                                 <error message="A master URL must be set in your configuration" type="org.apache.spark.SparkException">org.apache.spark.SparkException: A master URL must be set in your configuration
+	at org.apache.spark.SparkContext.&lt;init&gt;(SparkContext.scala:368)
+	at org.apache.spark.SparkContext$.getOrCreate(SparkContext.scala:2520)
+	at org.apache.spark.sql.SparkSession$Builder$$anonfun$7.apply(SparkSession.scala:930)
+	at org.apache.spark.sql.SparkSession$Builder$$anonfun$7.apply(SparkSession.scala:921)
+	at scala.Option.getOrElse(Option.scala:121)
+	at org.apache.spark.sql.SparkSession$Builder.getOrCreate(SparkSession.scala:921)
+	at com.newprolab.examples.MyDatasourceSpec.&lt;init&gt;(MyDatasourceSpec.scala:10)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:438)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:139)
+	at sbt.TestRunner.run(TestFramework.scala:154)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:317)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:277)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:317)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:317)
+	at sbt.TestFunction.apply(TestFramework.scala:329)
+	at sbt.Tests$.$anonfun$toTask$1(Tests.scala:311)
+	at sbt.std.Transform$$anon$3.$anonfun$apply$2(Transform.scala:46)
+	at sbt.std.Transform$$anon$4.work(Transform.scala:67)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:281)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:19)
+	at sbt.Execute.work(Execute.scala:290)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:281)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</error>
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>

@@ -1,0 +1,9 @@
+[debug] Running TaskDef(com.newprolab.examples.MyDatasourceSpec, org.scalatest.tools.Framework$$anon$1@761d425a, false, [SuiteSelector])
+[info] Run completed in 1 second, 107 milliseconds.
+[info] Total number of tests run: 0
+[info] Suites: completed 0, aborted 1
+[info] Tests: succeeded 0, failed 0, canceled 0, ignored 0, pending 0
+[info] *** 1 SUITE ABORTED ***
+[error] Error during tests:
+[error] 	com.newprolab.examples.MyDatasourceSpec
+[error] (Test / testOnly) sbt.TestsFailedException: Tests unsuccessful
